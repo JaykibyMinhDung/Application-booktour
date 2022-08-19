@@ -1,0 +1,135 @@
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media ( min-width:900px ) {
+      
+[class*="col-"] {
+    float: left;
+    padding: 10px 1% 0px 0px;
+    border: 0px solid red;
+}
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 23%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  .col-13 {width: 130%;}
+}
+.header_menu a {
+    text-decoration: none;
+    color:rgb(248, 248, 248)
+}
+.header_menu div {
+    margin: 20px;
+}
+.theme_background {
+background-color: rgb(201, 199, 78);
+font-size: 110%;
+display: flex;
+justify-content: space-between;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+    padding: 0%;
+    color: rgb(143, 255, 186);
+}
+.header_menu a:hover {
+    color: rgb(67, 128, 199);
+    text-decoration: none;
+}
+.phone {
+    color:rgb(255, 255, 255);
+    margin: 2%;
+    font-size: 110%;
+}
+div > p > em {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 120%;
+    color: greenyellow;
+    animation: move 0.5s linear infinite;
+}
+@keyframes move {
+    0% {color: rgb(47, 130, 255);}
+    100% {color: rgb(223, 54, 172);}
+}
+header div i {
+    position: relative;
+    right: 5px;
+    bottom: -7px;
+}
+.link_1 {
+    color: black;
+    margin-bottom: 20px;
+    font-size: 120%;
+}
+.link_1:hover {
+    text-decoration: none;
+}
+.menu_2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu_1 a {
+    margin: 1%;
+    color: rgb(224, 197, 96);
+    font-size: 110%;
+    align-items: center;
+}
+.menu_1 a:hover {
+    text-decoration: none;
+    color: rgb(97, 97, 48);
+    font-size: 130%;
+    transition: 0.5s;
+}
+.img_local {
+    position: relative;
+    left: 20%;
+    bottom: 22%;
+    width: 18%;
+    border-radius: 50%;
+    opacity: 80%;
+}
+.theme_bar {
+    background-color: rgb(255, 255, 255);
+}
+.album_ads {
+    border: 8px solid rgb(255, 255, 255);
+    width:1800px;
+    height: 600px;
+    margin: 0.1% 0%;
+    overflow: hidden;
+}
+.img_ads {
+    padding-top: var(--nav-height);
+    background-image: url(./Image/nhung-dia-diem-du-lich-chau-a-noi-tieng-elnido-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    width: 76%;
+    height: auto;
+    padding-bottom: 50%;
+}
+
+.img_sponsor {
+    border-radius: 50%;
+    margin: 1%;
+    align-items: center;
+}
+.sponsor {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    border-bottom: 0.1px solid rgb(87, 83, 83);
+}

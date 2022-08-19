@@ -1,0 +1,143 @@
+.box {
+    width: 30%;
+    height: auto;
+    border: 0px solid red;
+    margin: 2%;
+    background-color: beige;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0, 2), 0 4px 20px 0 rgba(0, 0, 0, 0, 19);
+}
+.box div img {
+    max-width: 100%;
+}
+.title_content {
+    text-align: center;
+    color: rgb(136, 136, 230);
+    margin: 5% 3%;   
+}
+.title_content:hover {
+    color: rgb(197, 25, 105);
+    text-shadow: 0 4px 10px 2px rgba(0, 0, 0, rgb(255, 187, 199));
+    text-decoration: none;
+}
+section a {
+    font-size: 140%;
+    margin: auto;
+    align-items: center;
+}
+.list {
+    display: flex;
+    flex-flow: wrap;
+    margin: auto;
+    background-color: rgb(208, 240, 213);
+}
+.list div {
+    background-color: rgb(255, 194, 247);
+    font-size: 110%;
+    padding: 2.5%;
+    margin: 1%;
+}
+.list div a {
+    margin-left: 24%;
+    justify-content: center;
+}
+div a:hover {
+    text-decoration: none;
+}
+.list div i{
+    color: rgb(28, 100, 56) !important;
+    position: relative;
+    left: 15%;
+}
+.list div:hover {
+    background-color:rgb(233, 184, 231) ;
+    color: azure;
+    box-shadow: 0 4px 10px 2px rgba(0, 0, 0, 0, 19);
+}
+.flex {
+    display: flex;
+}
+section div h5 {
+    position: relative;
+    right: -8.5em;
+    bottom: 1.8em;
+    font-weight: bold;
+}
+.space {
+    padding: 20px 16px;
+    margin: 0%;
+}
+.card {
+    box-shadow: 0 4px 5px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width: 22%;
+    height: 157%;
+    margin: 20px;
+    overflow: hidden;
+}  
+.card:hover {
+    box-shadow: 0 8px 30px 10px rgba(0,0,0,0.2);
+    border: 1px solid rgb(208, 255, 132);
+}
+.card_2 {
+    box-shadow: 0 4px 5px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width: 22%;
+    height: 136%;
+    margin: 20px;
+    overflow: hidden;
+}
+.card_2:hover {
+    box-shadow: 0 8px 30px 10px rgba(0,0,0,0.2);
+    border: 1px solid rgb(208, 255, 132);
+}
+.card_3 {
+    box-shadow: 0 4px 5px 0px rgba(0,0,0,0.2);
+    transition: 0.5s;
+    width: 22%;
+    height: 145%;
+    margin: 20px;
+    overflow: hidden;
+}
+.card_3:hover {
+    box-shadow: 0 8px 30px 10px rgba(0,0,0,0.2);
+    border: 1px solid rgb(208, 255, 132);
+}    
+.img_combo {
+    width: 230%;
+    position: relative;
+    right: 70%;
+}
+.img_combo_1 {
+    width: 103%;
+}
+.img_combo_3 {
+    width: 120%;
+}
+.img_combo_4 {
+    width: 165%;
+}
+.img_combo_5 {
+    width: 146%;
+}
+.img_combo_6 {
+    width: 205%;
+    position: relative;
+    right: 70%;
+}
+.img_combo_2 {
+    width: 180%;
+    position: relative;
+    right: 50%;
+}
+@media (min-width:900px) {
+.le {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    height: 450px;
+    margin: auto;
+}
+.tour_foreign {
+    margin: 25% 0%;
+}
+} 

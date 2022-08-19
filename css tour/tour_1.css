@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+
+}
+div a {
+    text-decoration: none;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+div a:hover {
+    color: rgb(255, 1, 1);
+}
+table, th, tr, td {
+    padding: 10px;
+    border-collapse: collapse;
+    border-bottom: 1px solid #DDD;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+[class*="sh-"] {
+    float: left;
+    padding: 3em, 1em 0 0;
+}
+.sh-1 {width: 15.33%;}
+.sh-2 {width: 25.33%;}
+.sh-3 {width: 33.33%;}
+.sh-4 {width: 45%;}
+.sh-5 {width: 50%;}
+.sh-6 {width: 66.33%;}
+.sh-7 {width: 75%;}
+.sh-8 {width: 83.33%;}
+.sh-9 {width: 92%;}
+.sh-10 {width: 100%;}
+
+.link_ind {
+   display: flex;
+   flex-flow: row;
+   justify-self: start;
+   background-color: rgb(233, 233, 233);
+}
+.link_ind div {
+    margin-left: 1%;
+    padding: 0.6%;
+    font-size: 90%;
+}
+.cmt {
+    margin: 2em;
+}
+.star i {
+    position: relative !important;
+    left: 5%;
+}
+.img_qc {
+    padding-top: 4em;
+}
+section h2 {
+    font-weight: bold;
+    text-align: center;
+}
+.rate_ser {
+    display: flex;
+    flex-flow: wrap;
+    margin: 1em;
+    padding-left: 1.5%;
+}
+.rate_ser_1 {
+    display: flex;
+    flex-flow: wrap;
+    margin: 1em;
+    padding-left: 1.5%;
+}
+.rate_ser_1 i {
+    position: relative;
+    top: 0.5em;
+    right: 1em;
+}
+div i {
+    position: relative;
+    right: 0.5em;
+    bottom: -1em;
+}
+.tab {
+    margin-top: 2em;
+    width: 100%;
+}
+.tab_1 {
+    width: 50%;
+    line-height: 250%;
+    margin-left: 2.5em;
+    border: 1px solid rgb(190, 190, 190);
+}
+.tab_1 tr th td {
+    border: 1px solid rgb(190, 190, 190);
+}
+.row div {
+    margin: 5em;
+}
+.introduct {
+    padding-left: 2.5%;
+}
+.over_view {
+    padding: 2em;
+    margin: 0.2em;
+    font-style: italic;
+    text-align: justify;
+}
+
+.sdt {
+    text-transform:uppercase ;
+    margin: 1em;
+    padding: 10px;
+    border-bottom: 4px solid lightpink;
+}
+.sdt i {
+    font-size: 150%;
+    position: relative;
+    bottom: -0.8em;
+}

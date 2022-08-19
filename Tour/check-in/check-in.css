@@ -1,0 +1,38 @@
+
+[class*="sh-"] {
+  float: left;
+  padding: 2%;
+}
+.sh-1 {width: 15.33%;}
+.sh-2 {width: 25.33%;}
+.sh-3 {width: 33.33%;}
+.sh-4 {width: 45%;}
+.sh-5 {width: 50%;}
+.sh-6 {width: 66.33%;}
+.sh-7 {width: 75%;}
+.sh-8 {width: 83.33%;}
+.sh-9 {width: 92%;}
+.sh-10 {width: 100%;}
+
+.theme_dk {
+  background: linear-gradient(0deg,pink,rgb(248, 255, 188));
+  background-size: 100%;
+  line-height: auto;
+  color: rgb(0, 0, 0);
+}
+.border {
+  text-align: center;
+  border: 9px dotted rgb(242, 255, 168);
+  margin: 5% 3%;
+}
+div form fieldset {
+  border: 2px solid rgb(242, 255, 168);
+}
+.color {
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+}
+.color:hover {
+  color: black;
+  background-color: blanchedalmond;
+}

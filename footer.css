@@ -1,0 +1,91 @@
+.list_2{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin: auto;
+    border-bottom: 5px solid rgb(255, 155, 172);
+}
+.list_2 div {
+    width: 20%;
+    height: 30%;
+    background-color: rgb(110, 100, 56);
+    line-height: 2.5em;
+    padding: 2%;
+    margin: 1% 3%;
+    color: rgb(255, 255, 255);
+}
+.list_2 div:hover {
+    background-color: rgb(255, 211, 115);
+    color: #fff;
+    transition: 0.5s;
+    box-shadow: 0 5px 30px 10px rgba(0, 0 ,0 , 2), 0 4px 20px 0px rgba(0, 0, 0, 0, 19);
+}
+.list_2 div i {
+    text-align: center;
+    font-size: medium;
+}
+.list_2 div a {
+    margin-left: 24%;
+    justify-content: center;
+}
+.socials-share {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.socials-share a {
+    padding: 4px 30px;
+    color: #fff;
+    line-height: 2em;
+    text-decoration: none;
+    border-radius: 2px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.socials-share span.fa {
+    margin-right: 3px;
+}
+
+.bg-facebook {
+    background: #3a5899;
+}
+
+.bg-facebook:hover, .bg-facebook:focus {
+    color: rgb(122, 133, 179);
+    background: #1c53d1;
+}
+
+.bg-twitter {
+    background: #2a99ed;
+}
+
+.bg-twitter:hover, .bg-twitter:focus {
+    background: #268ad5;
+}
+
+.bg-google-plus {
+    background: #db4437;
+}
+
+.bg-google-plus:hover, .bg-google-plus:focus {
+    background: #bb2a1d;
+    color: rgb(92, 78, 78);
+}
+.bg-android {
+    background-color: black;
+}
+.bg-android:hover, .bg-android:focus {
+    background-color: gold;
+}
+.bg-IOS {
+    background-color: black;
+}
+.bg-IOS:hover, .bg-IOS:focus {
+    background-color: gold;
+}
+.tail {
+    display: flex;
+    justify-content: center;
+}
